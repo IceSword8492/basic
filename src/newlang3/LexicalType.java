@@ -12,7 +12,7 @@ public enum LexicalType {
 	ENDIF,		// ENDIF
 	FOR,		// FOR
 	FORALL,		// FORALL
-	NEXT	,	// NEXT
+	NEXT,	    // NEXT
 	EQ,			// =
 	LT,			// <
 	GT,			// >
