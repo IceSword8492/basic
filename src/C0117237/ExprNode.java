@@ -178,13 +178,6 @@ public class ExprNode extends Node {
 
     @Override
     public Value getValue () throws Exception {
-        // System.out.println(primedNode);
-        // System.out.println(value);
-        // if (value != null && value.getValue() != null) {
-        //     System.out.println(value.getValue().getSValue());
-        // } else {
-        //     System.out.println("value not found");
-        // }
         if (primedNode != null) {
             return primedNode.getValue();
         } else {
